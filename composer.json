@@ -83,11 +83,17 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/manianrezaie/multipay"
+        }
+    ],
     "require": {
         "php": ">=7.2",
         "illuminate/broadcasting": "^5.0|^6.0|^7.0|^8.0",
         "illuminate/support": "^5.0|^6.0|^7.0|^8.0",
-        "shetabit/multipay": "^1.0"
+        "shetabit/multipay": "dev-master"
     },
     "suggest": {
         "ext-soap": "Needed to support some drivers that required SOAP"
